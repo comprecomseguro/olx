@@ -584,7 +584,7 @@ export default function Product() {
           </svg>
           <p className="text-sm">Simular empréstimo</p>
         </div>
-        <div className="flex fixed bottom-0 left-0 w-full py-4 border-gray-300 border bg-white px-4 gap-4">
+        <div className="flex fixed bottom-0 left-0 w-full py-4 border-gray-300 border bg-white px-4 gap-4 z-40">
           <a
             href={
               user ? `/pagamento/${product.slug}` : `/acesso/${product.slug}`
