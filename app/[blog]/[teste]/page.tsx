@@ -12,7 +12,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import Modal from "./components/modal";
-import ProductCarousel from "./components/carrosel";
+// import ProductCarousel from "./components/carrosel";
 import { useParams } from "next/navigation";
 import { format } from "date-fns";
 import { ptBR } from "date-fns/locale";
@@ -896,7 +896,7 @@ export default function Product() {
             </div>
           </div>
         </div>
-        <ProductCarousel />
+       {/* <ProductCarousel />*/}
         <h3 className="font-semibold text-xl mt-14">Sobre o anunciante</h3>
         <div className="w-full rounded-lg border border-[#cfd4dd] bg-white p-6 mt-4">
           {/* Notificação de validação */}
